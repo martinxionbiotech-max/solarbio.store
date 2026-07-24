@@ -1,0 +1,164 @@
+# Solarbio Technical Documentation — V12 Enterprise Knowledge Authority Engine
+site_name: Solarbio Technical Documentation
+site_description: Official technical documentation, product specifications, protocols, and quality standards for Solarbio life science research products.
+site_url: https://docs.solarbio.com
+repo_url: https://github.com/solarbio/solarbio-docs
+repo_name: solarbio/solarbio-docs
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  logo: assets/solarbio-logo.png
+  favicon: assets/favicon.ico
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.tooltips
+    - toc.follow
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  - redirects:
+      redirect_maps: {}
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/shop
+      link: https://solarbio.store
+      name: Solarbio Store
+    - icon: fontawesome/brands/github
+      link: https://github.com/solarbio/solarbio-docs
+      name: Documentation Repository
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: |
+  &copy; 2004–2026 Solarbio. All rights reserved.
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Molecular Biology:
+      - molecular-biology/index.md
+      - PCR Master Mixes: molecular-biology/pcr-mastermixes.md
+      - Real-Time PCR: molecular-biology/real-time-pcr.md
+      - DNA Extraction: molecular-biology/dna-extraction.md
+      - DNA Purification: molecular-biology/dna-purification.md
+      - Electrophoresis: molecular-biology/electrophoresis.md
+      - Competent Cells: molecular-biology/competent-cells.md
+      - Reverse Transcription: molecular-biology/reverse-transcription.md
+      - RNA Extraction: molecular-biology/rna-extraction.md
+      - Cloning Reagents: molecular-biology/cloning-reagents.md
+  - Cell Biology:
+      - cell-biology/index.md
+      - Cell Culture Reagents: cell-biology/cell-culture.md
+      - Apoptosis Detection: cell-biology/apoptosis-detection.md
+      - Cell Proliferation: cell-biology/cell-proliferation.md
+      - Cell Staining: cell-biology/cell-staining.md
+      - Transfection Reagents: cell-biology/transfection.md
+  - Immunology:
+      - immunology/index.md
+      - ELISA Kits: immunology/elisa-kits.md
+      - Antibodies: immunology/antibodies.md
+      - Immunohistochemistry: immunology/immunohistochemistry.md
+      - Flow Cytometry: immunology/flow-cytometry.md
+  - Assay Kits:
+      - assay-kits/index.md
+      - Oxidative Stress: assay-kits/oxidative-stress.md
+      - Metabolism Assays: assay-kits/metabolism.md
+      - Enzyme Activity: assay-kits/enzyme-activity.md
+      - Plant Biology: assay-kits/plant-biology.md
+      - Inflammation: assay-kits/inflammation.md
+      - Hepatotoxicity & Clinical Chemistry: assay-kits/hepatotoxicity.md
+      - Protein Quantification: assay-kits/protein-quantification.md
+  - Biochemical Reagents:
+      - biochemical-reagents/index.md
+      - Buffers & Solutions: biochemical-reagents/buffers-solutions.md
+      - Small Molecules: biochemical-reagents/small-molecules.md
+      - Analytical Standards: biochemical-reagents/analytical-standards.md
+      - Staining Dyes & Histology: biochemical-reagents/staining-dyes.md
+  - Protocols:
+      - protocols/index.md
+      - PCR Setup: protocols/pcr-setup.md
+      - DNA Extraction Protocol: protocols/dna-extraction-protocol.md
+      - Gel Extraction Protocol: protocols/gel-extraction-protocol.md
+      - ELISA Protocol: protocols/elisa-protocol.md
+      - Enzyme Assay Protocol: protocols/enzyme-assay-protocol.md
+      - Troubleshooting: protocols/troubleshooting.md
+      - qPCR Setup: protocols/qpcr-setup.md
+      - Western Blot: protocols/western-blot.md
+      - Cell Culture Protocol: protocols/cell-culture-protocol.md
+      - RNA Extraction Protocol: protocols/rna-extraction-protocol.md
+      - Competent Cell Transformation: protocols/competent-cell-transformation.md
+  - Quality & Compliance:
+      - quality/index.md
+      - ISO Certifications: quality/iso-certifications.md
+      - Certificate of Analysis: quality/coa-guide.md
+      - Storage & Shelf Life: quality/storage-shelf-life.md
+      - GMP Compliance &amp; Medical Device Registration: quality/gmp-compliance.md
+      - Shipping & Logistics: quality/shipping-logistics.md
+  - Applications:
+      - applications/index.md
+      - Clinical Research: applications/clinical-research.md
+      - Drug Discovery: applications/drug-discovery.md
+      - Food Safety: applications/food-safety-testing.md
+      - Agricultural Biotech: applications/agricultural-biotech.md
+  - FAQ: faq/index.md
+  - Resources: resources/index.md
