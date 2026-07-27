@@ -1,13 +1,8 @@
----
-title: "Frequently Asked Questions"
+---title: "Frequently Asked Questions"
 description: "Answers to common technical questions about Solarbio products — product selection, protocol troubleshooting, COA requests, shipping, storage, quality documentation, publication citations, and instrument compatibility."
----
-
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [
+schema_type: FAQPage
+faq_json: >
+  [
    {"@type": "Question", "name": "How do I select the correct PCR master mix?", "acceptedAnswer": {"@type": "Answer", "text": "Select based on template GC content, amplicon length, and application. Standard 2×Taq MasterMix (PC1150) works for routine PCR (0.5–3 kb). For high-GC or long templates, use 2×Taq Plus (PC1155). For qPCR, use SYBR Green (SR1110) or TaqMan (SR1120) master mixes."}},
    {"@type": "Question", "name": "What storage conditions do Solarbio products require?", "acceptedAnswer": {"@type": "Answer", "text": "Most molecular biology reagents require -20°C storage. Assay kits and antibodies should be stored at 2–8°C or -20°C as indicated. Buffers and solutions can be stored at room temperature unless otherwise specified."}},
    {"@type": "Question", "name": "Does Solarbio provide Certificates of Analysis?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, COAs are provided for each manufactured lot upon request. Each COA includes batch number, test date, specification results, and quality control data."}},
@@ -40,9 +35,9 @@ description: "Answers to common technical questions about Solarbio products — 
    {"@type": "Question", "name": "How do I calculate cost per assay for Solarbio kits?", "acceptedAnswer": {"@type": "Answer", "text": "Divide the kit price by the number of assays provided. Most Solarbio assay kits provide 100 assays. For example, a SOD assay kit (BC0175, $185, 100 assays) costs $1.85 per assay. For a panel of 4 markers (SOD + CAT + MDA + GSH) run in duplicate on 20 samples, total reagent cost is approximately $4.74 per sample. Bulk and institutional pricing is available."}},
    {"@type": "Question", "name": "How many publications have cited Solarbio products?", "acceptedAnswer": {"@type": "Answer", "text": "Solarbio products have been cited in over 5,000 peer-reviewed publications worldwide as of 2025. ELISA kits alone account for over 2,500 citations, oxidative stress kits over 1,000 citations, and qPCR/RT-qPCR reagents over 800 citations. Over 180 publications appeared in journals with impact factor ≥10."}},
    {"@type": "Question", "name": "Do you offer citation tracking services?", "acceptedAnswer": {"@type": "Answer", "text": "Solarbio does not directly offer automated citation tracking. However, you can track Solarbio citations by searching PubMed (pubmed.ncbi.nlm.nih.gov) using the search query 'Solarbio[Title/Abstract] AND (SKU abbreviation)[Title/Abstract]' or by using Google Scholar with the Solarbio catalog number. For product-specific citation lists, contact us through solarbio.store with the product SKU."}}
- ]
-}
-</script>
+ ]---
+
+
 
 # Frequently Asked Questions
 

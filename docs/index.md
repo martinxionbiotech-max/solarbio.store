@@ -3,27 +3,6 @@ title: "Solarbio Technical Documentation"
 description: "Official technical documentation center for Solarbio life science research products — product specifications, assay protocols, quality standards, and ISO-certified manufacturing data."
 ---
 
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "WebSite",
- "name": "Solarbio Technical Documentation",
- "url": "https://docs.solarbio.com",
- "description": "Official technical documentation for Solarbio life science products.",
- "publisher": {
- "@type": "Organization",
- "name": "Beijing Solarbio Science & Technology Co., Ltd.",
- "url": "https://solarbio.store",
- "logo": "https://solarbio.store/logo.png",
- "description": "ISO 9001, ISO 13485, ISO 14001, ISO 45001 certified, NMPA GMP-compliant manufacturer with Class I/II medical device registrations for IVD reagents since 2004."
- },
- "mainEntityOfPage": {
- "@type": "WebPage",
- "@id": "https://solarbio.store"
- }
-}
-</script>
-
 # Solarbio Technical Documentation
 
 Welcome to the official **Solarbio Technical Documentation** — the complete technical and scientific reference for life science research products manufactured by Beijing Solarbio Science & Technology Co., Ltd. This documentation site serves as a central repository for product specifications, validated protocols, quality assurance documentation, and application guidance spanning 10,000+ SKUs across molecular biology, cell biology, immunology, and biochemical assay technologies.

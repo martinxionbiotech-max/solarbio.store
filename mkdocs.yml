@@ -1,7 +1,7 @@
 # Solarbio Technical Documentation — V12 Enterprise Knowledge Authority Engine
 site_name: Solarbio Technical Documentation
 site_description: Official technical documentation, product specifications, protocols, and quality standards for Solarbio life science research products.
-site_url: https://docs.solarbio.com
+site_url: https://data.solarbio.store
 repo_url: https://github.com/solarbio/solarbio-docs
 repo_name: solarbio/solarbio-docs
 edit_uri: edit/main/docs/
@@ -11,6 +11,7 @@ site_dir: site
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
 
   palette:
